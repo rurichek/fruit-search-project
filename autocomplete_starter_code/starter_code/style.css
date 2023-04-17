@@ -12,7 +12,7 @@
 
 body {
   /* TODO */
-  background: #262a2f;
+  background: linear-gradient(0.25turn, #f7ff02, #f69d3c);
   color: #333;
 
 }
@@ -21,7 +21,7 @@ input {
  /* TODO */
   flex: 1;
   height:50px;
-  background: transparent;
+  background: #f5f984;
   border: 0;
   outline: 0;
   font-size: 18px;
@@ -36,8 +36,8 @@ input {
  display: inline-block; */
 
  width: 600px;
- background: #fff;
- margin: 200px auto 0;
+ background: #f5f984;
+ margin: 40vh auto 0;
  border-radius: 5px;
 
 
@@ -47,6 +47,7 @@ input {
   display: flex;
   align-items: center;
   padding: 10px 20px;
+
 }
 
 .search-container input,
@@ -82,7 +83,7 @@ ul li {
 }
 ul li:hover {
   /* TODO */
-  background: #e9f3ff
+  background: #e7f86a
 }
 
 input {
